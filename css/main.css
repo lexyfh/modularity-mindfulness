@@ -96,6 +96,7 @@ h2 i {
 article {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 article a {
@@ -106,7 +107,7 @@ article a {
 }
 
 article p {
-  margin: .5rem 0 1.25rem;
+  margin: .5rem 0 1.5rem;
 }
 
 footer {
