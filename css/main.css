@@ -11,6 +11,7 @@ html {
   text-size-adjust: 100%;
   font-family: "Noto Sans", sans-serif;
   line-height: 1.5;
+  margin: 1.125rem;
 }
 
 *,
@@ -34,7 +35,14 @@ img {
 }
 
 h1 {
-    display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+h1 span {
+  font-size: 1.125rem;
 }
 
 ul {
@@ -42,4 +50,71 @@ ul {
   display: flex;
   justify-content: space-around;
   padding: 0;
+  margin-top: 0;
+}
+
+a {
+  color: #3783a3;
+  font-size: 1.1rem;
+}
+
+div {
+  text-align: center;
+  border-top: .2rem solid #e2e2e2;
+  border-bottom: .2rem solid #e2e2e2;
+  margin: 1.25rem 0 1.5rem;
+  padding: 1.25rem 0 1rem;
+}
+
+div i {
+  font-size: 2rem;
+}
+
+div p {
+  margin: 1rem;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 span {
+  font-size: 1rem;
+}
+
+h2 i {
+  margin-top: .25rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+article a {
+  border: .2rem solid #3783a3;
+  border-radius: .3rem;
+  padding: .5em;
+  text-decoration: none;
+}
+
+article p {
+  margin: .5rem 0 1.5rem;
+}
+
+footer p {
+  text-align: center;
+  font-size: .75rem;
+  padding-bottom: 1rem;
+  border-top: .2rem solid #e2e2e2;
+  padding-top: 1rem;
+  margin-top: .5rem;
 }
