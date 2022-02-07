@@ -136,10 +136,15 @@ nav li {
 }
 
 @media only screen and (min-width: 38em) {
+
   section {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr; }
+    grid-template-rows: 1fr;
+  }
+
   header {
     flex-direction: row;
-    justify-content: space-between; }
+    justify-content: space-between;
+  }
+
 }
